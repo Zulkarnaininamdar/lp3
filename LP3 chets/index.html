@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Download Page</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body styling */
+    body {
+      background-color: #f4f4f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #444;
+    }
+
+    /* Download container styling */
+    .download-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    /* File card styling */
+    .file-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* File name styling */
+    .file-name {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    /* Download button styling */
+    .download-btn {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .download-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Download Files</h1>
+
+  <!-- Container for download links -->
+  <div class="download-container">
+    <!-- File 1 -->
+    <div class="file-card">
+      <span class="file-name">File 1: LP3Code.zip</span>
+      <a href="LP3 CODES/LP3 CODES.zip" download class="download-btn">Download</a>
+    </div>
+    
+    <!-- File 2 -->
+    <div class="file-card">
+      <span class="file-name">File 2: MlNotes.docx</span>
+      <a href="LP3 CODES/ml.zip" download class="download-btn">Download</a>
+    </div>
+    
+    <!-- File 3 -->
+    <div class="file-card">
+      <span class="file-name">File 3: DDAnotes.zip</span>
+      <a href="LP3 CODES/syllaba.zip" download class="download-btn">Download</a>
+    </div>
+    <div class="file-card">
+        <span class="file-name">File 3: mainpracticalsnamelist.zip</span>
+        <a href="LP3 CODES/main123.zip" download class="download-btn">Download</a>
+      </div>
+  </div>
+  
+
+  <!-- Add JavaScript functionality -->
+  <script>
+    // Optional: Add a console message or functionality if needed
+    console.log("Download page loaded.");
+  </script>
+</body>
+</html>
